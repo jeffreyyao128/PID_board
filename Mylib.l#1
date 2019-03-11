@@ -216,23 +216,6 @@ SOIC8 package</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MC79M05">
-<gates>
-<gate name="G$1" symbol="MC78M05" x="-15.24" y="0"/>
-</gates>
-<devices>
-<device name="" package="T03B">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="INPUT" pad="2"/>
-<connect gate="G$1" pin="OUTPUT" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </drawing>
